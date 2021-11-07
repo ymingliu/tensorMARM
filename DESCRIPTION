@@ -1,0 +1,23 @@
+Package: tensorMARM
+Type: Package
+Title: tensorMARM
+Version: 0.1.0
+Authors@R: c(person(given = "Xu", family = "Liu", role = c("aut","cre"), email = "liu.xu@sufe.edu.cn"),
+             person(given = "Yiming", family = "Liu", role = "aut"),
+             person(given = "Xiao", family = "Zhang", role = "aut"),
+             person(given = "Xingjie", family = "Shi", role = "ctb"))
+Author: Xu Liu [aut,cre], 
+        Yiming Liu [aut],
+        Xiao Zhang [aut],
+        Xingjie Shi [ctb]
+Maintainer: Xu Liu <liu.xu@sufe.edu.cn>
+Description: Multivariate additive regression for multi-view data via tensor estimation. The B-splines are used to approximate component functions. The spline coefficients are rearranged into multiple third-order tensors or even a fourth-order tensor with low-rankness under some specific conditions. Dimension reduction can be achieved by Tucker decomposition and group sparse penalty, for example, LASSO, MCP or SCAD. 
+License: GPL (>= 2)
+Imports: splines, Rcpp (>= 0.11.15), RcppEigen (>= 0.3.2.3.0)
+LinkingTo: Rcpp, RcppEigen
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+Repository: github
+URL: https://github.com/xliusufe/tensorMARM
+Encoding: UTF-8
+Packaged: 2021-10-20 02:11:21 UTC; admin

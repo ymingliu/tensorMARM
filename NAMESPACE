@@ -1,0 +1,7 @@
+import('splines')
+importFrom("graphics", "lines", "plot")
+importFrom("stats", "quantile", "rnorm", "runif")
+useDynLib(tensorMARM, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+export(marm3,marm3.dr,marm4,marm4.dr,marm3.sim.fbs,marm3.sim.fsin,marm4.sim.fbs,marm4.sim.fsin)
