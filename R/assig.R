@@ -27,9 +27,9 @@ bsbasefun <- function(X,K,degr){
 }
 
 ##------------------------------------------------------------------------##
-##-----------------generate scenario I data in IMMAM----------------------##
-# e.g. mydata=immam3.sim.fbs(200,5,100,10,rep(1:4,each=25))
-immam3.sim.fbs <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,isfixedR=0,D3=NULL,
+##-----------------generate scenario I data in MARM----------------------##
+# e.g. mydata=marm3.sim.fbs(200,5,100,10,rep(1:4,each=25))
+marm3.sim.fbs <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,isfixedR=0,D3=NULL,
                            K=6,degr=3,sigma2=NULL,seed_id=NULL,
                            r1_index=NULL,r2_index=NULL,r3_index=NULL,D0=NULL){
   if(n<2) stop("n must be not smaller than 2")
@@ -107,9 +107,9 @@ immam3.sim.fbs <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,isfixedR=0,D3=NU
 }
 
 ##------------------------------------------------------------------------##
-##----------------generate scenario II data in IMMAM----------------------##
-# e.g. mydata=immam3.sim.fsin(200,5,100,10,rep(1:4,each=25))
-immam3.sim.fsin <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,isfixedR=0,D2=NULL,
+##----------------generate scenario II data in MARM----------------------##
+# e.g. mydata=marm3.sim.fsin(200,5,100,10,rep(1:4,each=25))
+marm3.sim.fsin <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,isfixedR=0,D2=NULL,
                             K=6,degr=3,sigma2=NULL,seed_id=NULL,
                             r1_index=NULL,r2_index=NULL,r3_index=NULL,D0=NULL){
   if(n<2) stop("n must be not smaller than 2")
@@ -190,9 +190,9 @@ immam3.sim.fsin <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,isfixedR=0,D2=N
 }
 
 ##------------------------------------------------------------------------##
-##--------------generate scenario I data in structural IMMAM--------------##
-# e.g. mydata=immam4.sim.fbs(200,5,100,10,rep(1:4,each=25))
-immam4.sim.fbs <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,r40=2,isfixedR=0,D44=NULL,
+##--------------generate scenario I data in structural MARM--------------##
+# e.g. mydata=marm4.sim.fbs(200,5,100,10,rep(1:4,each=25))
+marm4.sim.fbs <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,r40=2,isfixedR=0,D44=NULL,
                            K=6,degr=3,sigma2=NULL,seed_id=NULL,
                            r1_index=NULL,r2_index=NULL,r3_index=NULL,r4_index=NULL,D0=NULL){
   if(n<2) stop("n must be not smaller than 2")
@@ -276,9 +276,9 @@ immam4.sim.fbs <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,r40=2,isfixedR=0
 }
 
 ##------------------------------------------------------------------------##
-##-------------generate scenario II data in structural IMMAM--------------##
-# e.g. mydata=immam4.sim.fsin(200,5,100,10,rep(1:4,each=25))
-immam4.sim.fsin <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,r40=2,isfixedR=0,D42=NULL,
+##-------------generate scenario II data in structural MARM--------------##
+# e.g. mydata=marm4.sim.fsin(200,5,100,10,rep(1:4,each=25))
+marm4.sim.fsin <- function(n,q,p,s,group=NULL,r10=2,r20=2,r30=2,r40=2,isfixedR=0,D42=NULL,
                             K=6,degr=3,sigma2=NULL,seed_id=NULL,
                             r1_index=NULL,r2_index=NULL,r3_index=NULL,r4_index=NULL,D0=NULL){
   if(n<2) stop("n must be not smaller than 2")
