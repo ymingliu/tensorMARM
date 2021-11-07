@@ -12,7 +12,7 @@
 
 # Usage
 
-   - [x] [tensorMARM-manual](https://github.com/xliusufe/tensorMARM/blob/master/inst/tensorMARM-manual.pdf) ------------ Details of the usage of the package.
+   - [x] [tensorMARM-manual](https://github.com/ymingliu/tensorMARM/blob/master/inst/tensorMARM-manual.pdf) ------------ Details of the usage of the package.
 # Examples
     
     library(tensorMARM)
